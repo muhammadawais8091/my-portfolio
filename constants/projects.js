@@ -48,4 +48,20 @@ export const PROJECTS = [
     live: "https://www.operator.work/",
     github: "",
   },
+  {
+    num: "04",
+    category: "fullstack",
+    title: "RealRepp",
+    description:
+      "In 2019, RealRepp approached us to rebrand their main website and build a custom Applicant Tracking System (ATS). The project evolved from a simple website redesign to creating a comprehensive recruitment platform with AI-powered matching, streamlined processes, and advanced features for managing candidates and placements.",
+    stack: [
+      { name: "React.js" },
+      { name: "Node.js" },
+      { name: "TypeScript" },
+      { name: "Elasticsearch" },
+    ],
+    image: "/assets/work/realrepp.png",
+    live: "https://www.realrepp.com/",
+    github: "",
+  },
 ];
