@@ -9,4 +9,5 @@ export { ABOUT } from "./about";
 export { EXPERIENCE } from "./experience";
 export { EDUCATION } from "./education";
 export { SKILLS } from "./skills";
+export { CASE_STUDIES } from "./caseStudies";
 export { CONTACT_INFO, CONTACT_SOCIALS, CONTACT_FORM } from "./contact";

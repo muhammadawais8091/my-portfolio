@@ -16,6 +16,10 @@ export const NAV_LINKS = [
     path: "/projects",
   },
   {
+    name: "case studies",
+    path: "/case-studies",
+  },
+  {
     name: "contact",
     path: "/contact",
   },
