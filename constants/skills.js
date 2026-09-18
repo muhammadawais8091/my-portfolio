@@ -2,7 +2,7 @@ export const SKILLS = {
   icon: "",
   title: "Skills",
   description:
-    "Frontend architecture, React & TypeScript, state & data fetching, design systems, Core Web Vitals, accessibility, and collaborative delivery.",
+    "Frontend architecture, React, NextJs & TypeScript, state & data fetching, design systems, Core Web Vitals, accessibility, and collaborative delivery.",
   skillsList: [
     { icon: "react", name: "React" },
     { icon: "typescript", name: "TypeScript" },

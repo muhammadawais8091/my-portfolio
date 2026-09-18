@@ -13,9 +13,9 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Muhammad Awais | Senior Frontend Engineer",
+  title: "Muhammad Awais | Frontend Engineer",
   description:
-    "React & TypeScript specialist with 7+ years building fast, accessible apps and shared design systems used across 1000+ enterprise sites.",
+    "React, NextJs & TypeScript specialist with 7+ years building fast, accessible apps and shared design systems used across 1000+ enterprise sites.",
 };
 
 export default function RootLayout({ children }) {

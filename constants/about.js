@@ -3,7 +3,7 @@ import { SITE } from "./site";
 export const ABOUT = {
   title: "About Me",
   description:
-    "Senior Frontend Engineer with 7+ years building fast, accessible, maintainable web applications in React and TypeScript with real ownership over frontend architecture and a shared design system used across 1000+ enterprise sites. Experienced managing application state and data fetching (React Query, Redux Toolkit, Zustand, Context API), optimizing for Core Web Vitals and bundle size, and collaborating on API contracts with backend engineers. Comfortable reviewing code and mentoring other frontend engineers, with strong written and verbal English communication from direct client and cross-functional collaboration.",
+    "Frontend Engineer with 7+ years building fast, accessible, maintainable web applications in React and TypeScript with real ownership over frontend architecture and a shared design system used across 1000+ enterprise sites. Experienced managing application state and data fetching (React Query, Redux Toolkit, Zustand, Context API), optimizing for Core Web Vitals and bundle size, and collaborating on API contracts with backend engineers. Comfortable reviewing code and mentoring other frontend engineers, with strong written and verbal English communication from direct client and cross-functional collaboration.",
   info: [
     {
       fieldName: "Name",

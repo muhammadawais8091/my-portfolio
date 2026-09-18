@@ -2,11 +2,11 @@ export const EXPERIENCE = {
   icon: "",
   title: "My experience",
   description:
-    "React & TypeScript specialist with ownership of frontend architecture, shared design systems, and production apps serving 1000+ enterprise sites — plus mentoring, code reviews, and cross-functional delivery.",
+    "React, NextJs & TypeScript specialist with ownership of frontend architecture, shared design systems, and production apps serving 1000+ enterprise sites — plus mentoring, code reviews, and cross-functional delivery.",
   items: [
     {
       company: "Kwanso, Lahore, Pakistan",
-      position: "Senior Frontend Engineer",
+      position: "Frontend Engineer",
       duration: "Mar 2022 – Apr 2026",
       responsibilities: [
         "Architected the frontend and shared component design system for ChexPass and Chex365, two production React applications serving 1000+ enterprise sites, converting UI/UX designs into responsive, accessible, cross-browser interfaces.",
