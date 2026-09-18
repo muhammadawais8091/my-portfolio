@@ -1,0 +1,18 @@
+export const SITE = {
+  name: "Muhammad Awais",
+  firstName: "Muhammad",
+  lastName: "Awais",
+  title: "Senior Frontend Engineer",
+  email: "muhammadawais122@gmail.com",
+  phone: "+92 323 4722429",
+  phoneHref: "tel:+923234722429",
+  location: "Lahore, Pakistan",
+  nationality: "Pakistan",
+  github: "https://github.com/muhammadawais8091",
+  githubUsername: "muhammadawais8091",
+  linkedin: "https://linkedin.com/in/hafiz-muhammad-awais",
+  linkedinUsername: "hafiz-muhammad-awais",
+  freelance: "Available",
+  cvPath: "/cv/Muhammad_Awais_CV.pdf",
+  cvFileName: "Muhammad_Awais_CV.pdf",
+};

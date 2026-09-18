@@ -7,22 +7,9 @@ import Image from "next/image";
 const Photo = () => {
   return (
     <div className="w-full h-full relative">
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{
-          opacity: 1,
-          transition: { delay: 2, duration: 0.4, ease: "easeIn" },
-        }}
-      >
+      <div>
         {/* image */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{
-            opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
-          }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
-        >
+        <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
           <Image
             fill
             priority
@@ -31,7 +18,7 @@ const Photo = () => {
             alt=""
             className="object-contain"
           />
-        </motion.div>
+        </div>
 
         {/* circle */}
 
@@ -63,7 +50,7 @@ const Photo = () => {
             }}
           />
         </motion.svg>
-      </motion.div>
+      </div>
     </div>
   );
 };

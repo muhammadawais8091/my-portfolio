@@ -1,5 +1,6 @@
-import { animate, motion } from "framer-motion";
-import React from "react";
+"use client";
+
+import { motion } from "framer-motion";
 
 const reverseIndex = (index) => {
   const totalSteps = 6;
@@ -13,9 +14,6 @@ const stairsAnimation = {
   animate: {
     top: "100%",
   },
-  exit: {
-    top: ["100%", "0%"],
-  },
 };
 
 const Stairs = () => {
@@ -28,11 +26,10 @@ const Stairs = () => {
             variants={stairsAnimation}
             initial="initial"
             animate="animate"
-            exit="exit"
             transition={{
-              duration: 0.4,
-              ease: "easeInOut",
-              delay: reverseIndex(index) * 0.1,
+              duration: 0.6,
+              ease: [0.65, 0, 0.35, 1],
+              delay: reverseIndex(index) * 0.12,
             }}
             className="h-full w-full bg-white relative"
           />

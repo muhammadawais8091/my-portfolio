@@ -1,32 +1,14 @@
 "use client";
 
 import CountUp from "react-countup";
-
-const stats = [
-  {
-    num: 12,
-    text: "years of experience",
-  },
-  {
-    num: 26,
-    text: "Projects completed",
-  },
-  {
-    num: 8,
-    text: "Technologies mastered",
-  },
-  {
-    num: 500,
-    text: "Code commits",
-  },
-];
+import { STATS } from "@/constants";
 
 const Stats = () => {
   return (
     <section className="pt-4 pb-18 xl:pt-0 xl:pb-0">
       <div className="container mx-auto">
         <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
-          {stats.map((item, index) => {
+          {STATS.map((item, index) => {
             return (
               <div
                 className="flex flex-1 gap-4 items-center justify-center xl:justify-start"

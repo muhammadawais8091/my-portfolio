@@ -2,7 +2,8 @@ import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
-import { Divide, FileDownIcon } from "lucide-react";
+import { HOME } from "@/constants";
+import { FileDownIcon } from "lucide-react";
 
 /* eslint-disable react/no-unescaped-entities */
 const Home = () => {
@@ -10,30 +11,27 @@ const Home = () => {
     <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-          {/* text */}
-
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
+            <span className="text-xl">{HOME.role}</span>
 
             <h1 className="h1 mb-6">
-              Hello I'm <br />{" "}
-              <span className="text-accent">Muhammad Awais</span>
+              {HOME.greeting} <br />{" "}
+              <span className="text-accent">{HOME.name}</span>
             </h1>
 
-            <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and i am
-              proficient in various programming languages and technologies.
-            </p>
+            <p className="max-w-[500px] mb-9 text-white/80">{HOME.description}</p>
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FileDownIcon className="text-xl" />
-              </Button>
+              <a href={HOME.cvPath} download={HOME.cvFileName}>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>{HOME.cvLabel}</span>
+                  <FileDownIcon className="text-xl" />
+                </Button>
+              </a>
 
               <div>
                 <Social
