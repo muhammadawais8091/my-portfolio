@@ -17,10 +17,10 @@ const MobileNav = () => {
       </SheetTrigger>
 
       <SheetContent className="flex flex-col">
-        <div className="mt-32 mb-40 text-center text-2xl">
+        <div className="mt-12 mb-20 text-center text-2xl">
           <Link href="/">
             <h1 className="text-4xl font-semibold">
-              Awais <span className="text-accent">.</span>
+              Muhammad Awais <span className="text-accent">.</span>
             </h1>
           </Link>
         </div>
